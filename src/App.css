@@ -6,6 +6,35 @@
   height: 40vmin;
   pointer-events: none;
 }
+.basliq{
+  color: red;
+}
+.esas{
+  color: black;
+  background-color: red;
+  font-size: 40px;
+}
+.esas:hover{
+  background-color: rgb(35, 174, 0);
+}
+.duyme{
+  color: red;
+  background-color: black;
+  width: 300px;
+  height: 50px;
+}
+.duyme:hover{
+  background-color: aqua;
+  color: yellow;
+
+}
+.f1{
+  font-size: 40px;
+  color: black;
+}
+.f1:hover{
+  background-color: blue;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,26 +42,10 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
